@@ -43,11 +43,12 @@ text = input("Enter text (UPPERCASE only): ")
 key = input("Enter key (UPPERCASE only): ")
 encrypted = vigenere_cipher(text, key, decrypt=False)
 print("Encrypted Message:", encrypted)
-decrypted = vigenere_cipher(encrypted, key, decrypt=True)
 print("Decrypted Message:", decrypted)
 ~~~
+decrypted = vigenere_cipher(encrypted, key, decrypt=True)
 ## OUTPUT
-<img width="1920" height="1200" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/d35c64c8-3913-4c02-a1c2-33e776e8161b" />
+<img width="1913" height="1198" alt="image" src="https://github.com/user-attachments/assets/b750e38c-4a9b-4200-9e03-337537694437" />
+
 ## RESULT
 
 Thus the program executed successfully
